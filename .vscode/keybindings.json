@@ -1,0 +1,14 @@
+[
+    {
+        "key": "cmd+shift+s",
+        "command": "workbench.action.tasks.runTask",
+        "args": "自动同步到GitHub",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+shift+g",
+        "command": "workbench.action.tasks.runTask", 
+        "args": "快速提交并推送",
+        "when": "editorTextFocus"
+    }
+]

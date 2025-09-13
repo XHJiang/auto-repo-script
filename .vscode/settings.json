@@ -1,0 +1,21 @@
+{
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000,
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    "git.autoStash": true,
+    "terminal.integrated.shell.osx": "/bin/zsh",
+    "workbench.editor.enablePreview": false,
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+    },
+    "git.postCommitCommand": "push",
+    "git.showPushSuccessNotification": true,
+    "git.showActionButton": {
+        "commit": true,
+        "publish": true,
+        "syncChanges": true
+    }
+}
