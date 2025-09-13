@@ -1,6 +1,6 @@
 {
     "files.autoSave": "afterDelay",
-    "files.autoSaveDelay": 1000,
+    "files.autoSaveDelay": 2000,
     "git.enableSmartCommit": true,
     "git.confirmSync": false,
     "git.autofetch": true,
@@ -17,5 +17,14 @@
         "commit": true,
         "publish": true,
         "syncChanges": true
+    },
+    "git.autoCommit": true,
+    "git.autoCommitDelay": 5000,
+    "git.autoCommitMessage": "自动提交: ${timestamp}",
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules/**": true,
+        "**/tmp/**": true
     }
 }
